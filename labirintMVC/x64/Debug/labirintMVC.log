@@ -1,0 +1,15 @@
+﻿  ClearCell.cpp
+  Exit.cpp
+  Game.cpp
+  GameController.cpp
+  PlayerCell.cpp
+  PlayerController.cpp
+  PlayerStatView.h
+  Room.cpp
+  RoomCellsView.cpp
+  RoomController.cpp
+  Treasure.cpp
+  Wall.cpp
+  main.cpp
+  Создание кода...
+  labirintMVC.vcxproj -> E:\пары\основы программирования\семестр 2\labirintMVC\x64\Debug\labirintMVC.exe

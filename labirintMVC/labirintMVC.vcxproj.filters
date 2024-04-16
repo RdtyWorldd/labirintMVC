@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\models">
+      <UniqueIdentifier>{600d6bb7-7534-4e47-97cf-061edc6ccd54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\view">
+      <UniqueIdentifier>{39771ba4-648a-4106-beb2-ea04d9fcce19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\controllers">
+      <UniqueIdentifier>{11002213-8294-4ce0-b2f9-9d5987bf7971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\models\moveable">
+      <UniqueIdentifier>{52a9685a-fbd5-4fb1-a5f7-ac5074d56e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\models\moveable\monsters">
+      <UniqueIdentifier>{61cd02d4-d20d-44a5-8483-cbf26564c79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\models\cells">
+      <UniqueIdentifier>{b36b1830-bb29-41af-b583-f991bec4c89a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\view\observer">
+      <UniqueIdentifier>{2e7086fa-37d9-4275-a167-9629ac81494c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\DAO">
+      <UniqueIdentifier>{d98ab5db-8880-4dfd-8838-317051e1378b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\view">
+      <UniqueIdentifier>{7aa0ebbe-c4c2-4444-b400-e9b19ec0cad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\models">
+      <UniqueIdentifier>{656b92ec-9512-43c9-8048-7fc198c1416e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\models\cells">
+      <UniqueIdentifier>{adafddf0-243b-49df-b4df-2dc40fcfafb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\dao">
+      <UniqueIdentifier>{7efb7cf4-2aab-45cb-be32-ff0591f2f499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\view\room">
+      <UniqueIdentifier>{4751e017-6ba4-445d-a3a1-a1ff1c20a9f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\view\player">
+      <UniqueIdentifier>{08df43e3-690c-4560-9239-7da42e332628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\controller">
+      <UniqueIdentifier>{8f300f97-bff0-48a0-842d-dbeef03b0f22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\exceptions">
+      <UniqueIdentifier>{0848f528-42ac-4d1e-a73d-c885f75c2db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\exceptions">
+      <UniqueIdentifier>{61964f93-7b2a-457d-bd92-78950e7e7c93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Moveable.h">
+      <Filter>Файлы заголовков\models\moveable</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomDao.h">
+      <Filter>Файлы заголовков\DAO</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Исходные файлы\models</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearCell.cpp">
+      <Filter>Исходные файлы\models\cells</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Исходные файлы\models\cells</Filter>
+    </ClCompile>
+    <ClCompile Include="Treasure.cpp">
+      <Filter>Исходные файлы\models\cells</Filter>
+    </ClCompile>
+    <ClCompile Include="Exit.cpp">
+      <Filter>Исходные файлы\models\cells</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomCellsView.cpp">
+      <Filter>Исходные файлы\view</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStatView.h">
+      <Filter>Файлы заголовков\view\player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Исходные файлы\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Исходные файлы\models</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomController.cpp">
+      <Filter>Исходные файлы\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Исходные файлы\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCell.cpp">
+      <Filter>Исходные файлы\models\cells</Filter>
+    </ClCompile>
+    <ClCompile Include="AddCellException.cpp">
+      <Filter>Исходные файлы\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitException.cpp">
+      <Filter>Исходные файлы\exceptions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Monster.h">
+      <Filter>Файлы заголовков\models\moveable\monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Файлы заголовков\models</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Файлы заголовков\models\moveable</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomController.h">
+      <Filter>Файлы заголовков\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>Файлы заголовков\models\cells</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Файлы заголовков\models\cells</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCell.h">
+      <Filter>Файлы заголовков\models\cells</Filter>
+    </ClInclude>
+    <ClInclude Include="Treasure.h">
+      <Filter>Файлы заголовков\models\cells</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterCell.h">
+      <Filter>Файлы заголовков\models\cells</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearCell.h">
+      <Filter>Файлы заголовков\models\cells</Filter>
+    </ClInclude>
+    <ClInclude Include="Exit.h">
+      <Filter>Файлы заголовков\models\cells</Filter>
+    </ClInclude>
+    <ClInclude Include="IObserver.h">
+      <Filter>Файлы заголовков\view\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomCellsView.h">
+      <Filter>Файлы заголовков\view\room</Filter>
+    </ClInclude>
+    <ClInclude Include="IRoomView.h">
+      <Filter>Файлы заголовков\view\room</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlayerView.h">
+      <Filter>Файлы заголовков\view\player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStepView.h">
+      <Filter>Файлы заголовков\view\player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Файлы заголовков\models</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>Файлы заголовков\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="AddCellException.h">
+      <Filter>Файлы заголовков\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverException.h">
+      <Filter>Файлы заголовков\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitException.h">
+      <Filter>Файлы заголовков\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Файлы заголовков\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Xmonster.h">
+      <Filter>Файлы заголовков\models\moveable\monsters</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
