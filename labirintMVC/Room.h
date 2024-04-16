@@ -13,6 +13,7 @@
 #include "IRoomView.h"
 
 class Room {
+	int id;
 	int high, wide;
 	Cell*** cells;
 
@@ -29,6 +30,7 @@ public:
 	~Room();
 	void addObserver(IRoomView* o);
 
+	int getId();
 	int getHigh();
 	int getWide();
 	Cell*** getCells();

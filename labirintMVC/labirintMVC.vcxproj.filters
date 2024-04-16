@@ -108,9 +108,6 @@
     <ClCompile Include="RoomController.cpp">
       <Filter>Исходные файлы\controller</Filter>
     </ClCompile>
-    <ClCompile Include="PlayerController.cpp">
-      <Filter>Исходные файлы\controller</Filter>
-    </ClCompile>
     <ClCompile Include="PlayerCell.cpp">
       <Filter>Исходные файлы\models\cells</Filter>
     </ClCompile>
@@ -119,6 +116,9 @@
     </ClCompile>
     <ClCompile Include="ExitException.cpp">
       <Filter>Исходные файлы\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomDao.cpp">
+      <Filter>Исходные файлы\dao</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -187,9 +187,6 @@
     </ClInclude>
     <ClInclude Include="ExitException.h">
       <Filter>Файлы заголовков\exceptions</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerController.h">
-      <Filter>Файлы заголовков\controllers</Filter>
     </ClInclude>
     <ClInclude Include="Xmonster.h">
       <Filter>Файлы заголовков\models\moveable\monsters</Filter>

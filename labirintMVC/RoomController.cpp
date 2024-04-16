@@ -13,6 +13,9 @@ void RoomController::addPlayer(int x, int y, Player& player) {
 	t = cells[oy][ox];
 	cells[oy][ox] = *t - player;
 	delete t;
+
+	room.show();
+	player.move(x, y);
 }
 
 void RoomController::show()

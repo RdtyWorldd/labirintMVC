@@ -1,8 +1,8 @@
 #include "ClearCell.h"
 
-void ClearCell::visit(ostream& out) {
-	out << " ";
-}
+void ClearCell::visit(ostream& out) { out << " "; }
+
+void ClearCell::fileCopy(ostream& out) { out << '_'; }
 
 Cell* ClearCell::copy() {
 	return new ClearCell();

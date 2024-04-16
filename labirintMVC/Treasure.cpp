@@ -1,8 +1,7 @@
 #include "Treasure.h"
 
-void Treasure::visit(ostream& out) {
-	out << "$";
-}
+void Treasure::visit(ostream& out) { out << "$"; }
+void Treasure::fileCopy(ostream& out) { visit(out); }
 
 Cell* Treasure::copy() {
 	return new Treasure();

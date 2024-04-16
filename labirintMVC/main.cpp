@@ -36,7 +36,7 @@ int main() {
 	//system("cls");
 	//p.addTreasures();
 
-	Game game(p, room);
+	Game game(&p, &room);
 	GameController controller(game);
 	controller.run();
 }

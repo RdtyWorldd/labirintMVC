@@ -10,6 +10,6 @@ public:
 	PlayerStepView(ostream& out) : IPlayerView(out) {}
 
 	void event(Player& player) {
-		out << player.getSteps()<< endl;
+		out << "Steps: " << player.getSteps() << endl;
 	}
 };

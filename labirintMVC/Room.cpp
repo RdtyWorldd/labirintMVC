@@ -3,6 +3,7 @@
 Room::Room() : high(0), wide(0), cells(nullptr), monstersCount(0), monsters(nullptr) {}
 
 Room::Room(const Room& room) {
+	id = room.id;
 	high = room.high;
 	wide = room.wide;
 	if (room.cells == nullptr) {
@@ -29,12 +30,16 @@ Room::Room(const Room& room) {
 			//monsters[i] = room.monsters[i]->copy();
 		}
 	}
+
+	for (IRoomView* view : room.allObservers) {
+		allObservers.push_back(view);
+	}
 }
 
 Room& Room::operator =(const Room& room) {
 	if (this == &room)
 		return *this;
-
+	id = room.id;
 	high = room.high;
 	wide = room.wide;
 
@@ -96,6 +101,7 @@ void Room::addObserver(IRoomView* o) {
 	allObservers.push_back(o);
 }
 
+int Room::getId() { return id; }
 int Room::getHigh() { return high; }
 int Room::getWide() { return wide; }
 Cell*** Room::getCells() { return cells; }
@@ -114,14 +120,17 @@ void Room::show() {
 }
 
 istream& operator >>(istream& in, Room& room) {
+	int id = 0;
 	int high = 0;
 	int wide = 0;
 
+	in >> id;
 	in >> high >> wide;
 	if (high < 3 || wide < 3) {
 		throw invalid_argument("room can't be less than: high = 3, wide = 3");
 		return in;
 	}
+	room.id = id;
 	room.high = high;
 	room.wide = wide;
 

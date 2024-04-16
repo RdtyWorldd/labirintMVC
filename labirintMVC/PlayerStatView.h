@@ -8,6 +8,6 @@ public:
 	PlayerStatView(ostream& out) : IPlayerView(out) {}
 
 	void event(Player& player) {
-		out << player.getHP() << " " << player.getTreasures() << endl;
+		out << "Hp: " << player.getHP() << " | Treasures: " << player.getTreasures() << endl;
 	}
 };

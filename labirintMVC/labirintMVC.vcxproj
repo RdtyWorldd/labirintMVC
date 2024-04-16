@@ -137,11 +137,11 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Moveable.h" />
     <ClCompile Include="PlayerCell.cpp" />
-    <ClCompile Include="PlayerController.cpp" />
     <ClCompile Include="PlayerStatView.h" />
     <ClCompile Include="Room.cpp" />
     <ClCompile Include="RoomCellsView.cpp" />
     <ClCompile Include="RoomController.cpp" />
+    <ClCompile Include="RoomDao.cpp" />
     <ClCompile Include="RoomDao.h" />
     <ClCompile Include="Treasure.cpp" />
     <ClCompile Include="Wall.cpp" />
@@ -161,7 +161,6 @@
     <ClInclude Include="MonsterCell.h" />
     <ClInclude Include="PlayerCell.h" />
     <ClInclude Include="Player.h" />
-    <ClInclude Include="PlayerController.h" />
     <ClInclude Include="PlayerStepView.h" />
     <ClInclude Include="Room.h" />
     <ClInclude Include="RoomCellsView.h" />

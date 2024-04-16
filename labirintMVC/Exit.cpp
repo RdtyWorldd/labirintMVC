@@ -2,9 +2,8 @@
 
 Exit::Exit(int _nextRoom) : nextRoom(_nextRoom) {}
 
-void Exit::visit(ostream& out) {
-	out << "/";
-}
+void Exit::visit(ostream& out) { out << "/"; }
+void Exit::fileCopy(ostream& out) { visit(out); out << nextRoom; }
 
 Cell* Exit::copy() {
 	return new Exit(nextRoom);
